@@ -24,3 +24,41 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title
+{
+  align-self: center;
+}
+
+.text
+{
+  align-self: center;
+  max-width: 200px;
+  text-align: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+  width: 200px;
+  height: 150px;
+}

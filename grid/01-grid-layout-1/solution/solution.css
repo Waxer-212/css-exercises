@@ -9,6 +9,8 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: inline-grid;
+  grid-template: 20px 40px/ 1fr 1fr 1fr 1fr;
 }
 
 .container div {
@@ -21,7 +23,8 @@ html {
 }
 
 .header {
-  background-color: #006157
+  background-color: #006157;
+  grid-row: 1 / 1;
 }
 
 .sidebar {
